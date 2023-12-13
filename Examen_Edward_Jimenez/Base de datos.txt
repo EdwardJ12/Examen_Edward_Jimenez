@@ -1,0 +1,14 @@
+use taller;
+
+CREATE TABLE Mecanicos
+	(
+    Id_mecanico int primary key auto_increment,
+    nombre varchar(50),
+    Edad int,
+    Domicilio varchar(100),
+    Titulo varchar(100),
+    Especialidad varchar(100),
+    SueldoBase int,
+    GranTitulo int,
+    SueldoTotal int
+    )
